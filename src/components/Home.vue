@@ -1,12 +1,20 @@
 <template>
     <div class="containerHome">
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4 Text0">
+            <div class="col-1 col-xl-4">
+                <router-link  to="/Page6">
+                    <div class="col-12 Href"></div>
+                </router-link>
+            </div>
+            <div class="col-10 col-xl-4 Text0">
                 <p class="Text1">"Всё, что мы есть – это результат наших мыслей."</p>
                 <p class="Text2 text-right">Сиддхартха Гаутама (Будда)</p>
             </div>
-            <div class="col-4"></div>
+            <div class="col-1 col-xl-4">
+                <router-link  to="/Page1">
+                    <div class="col-12 Href"></div>
+                </router-link>
+            </div>
         </div>
         <div class="row">
             <div class="col-4"></div>
@@ -17,9 +25,9 @@
                         <a>Начать</a>
                     </router-link>
                 </b-button>
-
             </div>
-            <div class="col-4"></div>
+            <div class="col-4">
+            </div>
         </div>
     </div>
 
@@ -40,13 +48,13 @@
         border-radius: 8px;
     }
     .Text1{
-        font-size: 24px;
+        font-size: calc(14px + 1vw);
         font-style: italic;
         font-weight: bold;
         font-family: Arial, sans-serif;
     }
     .Text2{
-        font-size: 22px;
+        font-size: calc(11px + 1vw);
     }
     .containerHome{
         color: black;
@@ -63,6 +71,7 @@
         border-color: #bb7171;
         box-shadow:0 5px 5px darkgray;
         padding:10px 12px 10px 12px;
+
     }
     .btn:hover,.btn:active{
         background-color: #9a4a4a;
@@ -73,9 +82,13 @@
     .btn a{
         text-decoration: none;
         color: white;
+        font-size: 28px;
     }
     .btn a:hover, a:active{
         text-decoration: none;
         color: white;
+    }
+    p{
+        text-indent: 20px;
     }
 </style>

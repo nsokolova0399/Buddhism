@@ -2,15 +2,20 @@
   <span id="app" class="App" >
     <header class="navigation" >
       <div class="row NK">
-        <div class="col-lg-12 col-md-12 col-xs-12 text-center"><a><router-link to="/Home">Буддизм</router-link></a></div>
+        <div class="col-lg-12 col-md-12 col-xs-12 text-center">
 
+
+          <a>
+            <router-link to="/Home">Буддизм</router-link>
+          </a>
+        </div>
       </div>
     </header>
 <router-view></router-view>
     <footer>
       <div class="row Footer">
         <div class="col-lg-6 col-md-6 col-xs-4 text-center" >© МЭИ, Философия 2022</div>
-        <div class="col-lg-6 col-md-6 col-xs-4 text-center">Соколова А.С., Абросимова М.</div>
+        <div class="col-lg-6 col-md-6 col-xs-4 text-center">Соколова А.С., Абросимова М. Н.</div>
       </div>
     </footer>
   </span>
